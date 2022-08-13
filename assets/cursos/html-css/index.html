@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap" rel="stylesheet">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Home - Barbearia Alura</title>
+</head>
+
+	<body>
+		<header>
+			<nav class="navbar navbar-expand-sm navbar-dark bg-dark ">
+				<div class="container-fluid">
+					<h4 class="navbar-brand">Daniel Costa | </h4>
+					<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-expanded="false">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+						<div class="offcanvas-header">
+							<h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+							<button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+						</div>
+						<div class="offcanvas-body">
+							<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+								<li class="nav-item">
+									<a class="nav-link active" aria-current="page" href="../../../index.html">Início</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Cursos</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Sobre</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Contato</a>
+								</li>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<section>
+			<div class="caixa">
+				<h1><img src="logo.png"></h1>
+					<div class="menu-pagina">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="produtos.html">Produtos</a></li>
+							<li><a href="contato.html">Contato</a></li>
+						</ul>
+					</div>
+				
+			</div>
+		</section>
+
+		<img class="banner" src="banner.jpg">
+		<main>
+			<section class="principal">
+				<h2 class="titulo-principal">Sobre a Barbearia Alura</h2>
+
+				<img class="utensilios" src="utensilios1.jpg" alt="utensilios de um barbeiro">
+
+				<p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+				<p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
+				<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+			</section>
+
+			<section class="mapa">
+				<h3 class="titulo-principal">Nosso estabelecimento</h3>
+				<p>Nosso estabelecimento esta Localizado no coração da cidade.</p>
+
+				<div class="mapa-conteudo">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3749.86464311847!2d-43.95380198500415!3d-19.972193886580126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa697f076e73643%3A0x85b6c90db2631e9a!2sRua%20Xing%C3%BA%2C%20490%20-%20Santa%20L%C3%BAcia%2C%20Belo%20Horizonte%20-%20MG%2C%2030360-690!5e0!3m2!1spt-BR!2sbr!4v1656306563707!5m2!1spt-BR!2sbr" width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</section>
+
+			<section class="beneficios">
+				<h3 class="titulo-principal">Benefícios</h3>
+
+				<div class="conteudo-beneficios">
+					<ul class="lista-beneficios">
+						<li class="itens">Atendimento aos Clientes</li>
+						<li class="itens">Espaço diferenciado</li>
+						<li class="itens">Localização</li>
+						<li class="itens">Profissionais Qualificados</li>
+						<li class="itens">Pontualidade</li>
+						<li class="itens">Limpeza</li>
+					</ul><img src="beneficios.jpg" class="imagem-beneficios">
+				</div>
+
+				<div class="video">
+					<iframe width="100%" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY?start=60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<img src="logo-branco.png">
+			<p class="copyright">&copy; Copyright Barbearia Alura - 2022</p>
+		</footer>
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+	</body>
+</html>
