@@ -1,0 +1,14 @@
+
+.sobre__titulo {
+  text-align: center;
+  font-family: var(--font-pacifico);
+  font-size: 3.2vw;
+  color: var(--vermelho);
+  padding: 2rem 1rem 1rem 1rem;
+}
+.sobre__descricao {
+  font-size: 1.75vw;
+  text-align: center;
+  color: var(--cinza);
+  margin: 0 7rem 3em;
+}
