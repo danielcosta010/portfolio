@@ -1,0 +1,21 @@
+.card {
+  transition: .5s ease-in-out;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.579);
+  background-color: rgba(0, 0, 0, .5);
+  cursor: pointer;
+  color: aliceblue;
+}
+.cursos {
+  background-image: url(../img/pexels-negative-space-97077.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+
+
+
