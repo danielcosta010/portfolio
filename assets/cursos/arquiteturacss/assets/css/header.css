@@ -62,9 +62,7 @@
   
   .cabecalho__menu {
     position: absolute;
-    right: -100%;
-    
-    
+    top: -100%;
   }
   .cabecalho__menu--mobile {
     display: block;
