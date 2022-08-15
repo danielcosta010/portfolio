@@ -64,6 +64,7 @@
     position: absolute;
     right: -100%;
     
+    
   }
   .cabecalho__menu--mobile {
     display: block;
@@ -72,7 +73,7 @@
   .cabecalho__menu {
     display: block;
     right: 0;
-    top: 50px;
+    top: 125px;
     background: #f9f9f9;
     width: 50vw;
     z-index: 1;

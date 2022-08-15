@@ -6,6 +6,7 @@
 @import url(receita.css);
 @import url(quemSomos.css);
 @import url(../css/rodape.css);
+@import url(goTop.css);
 
 :root {
   --font-principal: Roboto;
