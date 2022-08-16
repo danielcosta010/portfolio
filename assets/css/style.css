@@ -19,17 +19,17 @@
   background-image: linear-gradient(#a6d8fc95, #d5edff, #d5edff);
 }
 
-.contatos {
+.contatos, .interesses {
   display: grid;
   gap: 1.5rem;
 }
 @media screen and (min-width: 540px) {
-  .contatos {
+  .contatos, .interesses{
     grid-template-columns: 1fr 1fr;
   }
 }
 @media screen and (min-width: 1040px) {
-  .contatos {
+  .contatos, .interesses{
     grid-template-columns: repeat(4, 1fr);
   }
 }
