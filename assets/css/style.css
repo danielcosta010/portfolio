@@ -16,7 +16,7 @@
   background-size: cover;
 }
 .sobre {
-  background-image: linear-gradient(#a6d8fc, #d5edff, #d5edff, rgba(119, 119, 228, 0.395));
+  background-image: linear-gradient(#a6d8fc95, #d5edff, #d5edff);
 
 }
 

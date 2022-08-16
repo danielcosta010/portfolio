@@ -1,0 +1,65 @@
+.recentes {
+  background-color: var(--branco);
+  margin-top: 2rem;
+}
+.recentes__caixa {
+  background: var(--azul-degrade);
+  
+}
+.recentes__titulo {
+  color: var(--branco);
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center;
+  padding: 1rem;
+}
+
+.recentes__lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.recentes__botoes {
+  margin: 2rem 0.5rem;
+}
+.recentes__link {
+  text-decoration: none;
+  color: var(--branco);
+  background-color: var(--laranja);
+  padding: 1rem;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 1024px) {
+  .recentes__titulo {
+    font-size: 24px;
+  }
+  .recentes__lista {
+    margin: 0 15rem;
+  }
+}
+@media screen and (min-width: 1728px) {
+  .recentes__lista {
+    margin: 3rem 30vw 0  30vw;
+  }
+  .recentes__titulo {
+    font-size: 32px;
+    padding-top: 3rem;
+  }
+  .recentes__link {
+    font-size: 24px;
+    transition: 0.5s ease-in-out;
+  }
+  .recentes__botoes {
+    transition: 0.5s ease-in-out;
+  }
+  .recentes__caixa {
+    padding-bottom: 5rem;
+  }
+  .recentes__link:hover {
+    box-shadow: 0 4px 8px var(--branco);
+    transform: translateX(-5px);
+  }
+}
