@@ -17,14 +17,14 @@
   <title>Evolução nos estudos</title>
 </head>
 <body class="bg-light bg-gradient">
-  <header id="inicio">
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark bg-gradient ">
+  <header id="inicio" style="background-color: black;">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark bg-gradient">
       <div class="container-fluid">
         <h4 class="navbar-brand  text-break">Daniel Costa</h4>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-expanded="false">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="offcanvas offcanvas-end text-bg-secondary" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas offcanvas-end w-75 text-bg-secondary" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
           <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -32,7 +32,7 @@
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="nav-link active" href="#">Início</a>
+                <a class="nav-link active" aria-current="page" href="#">Início</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#cursos">Cursos</a>
@@ -250,19 +250,19 @@
       <p class="text-justify">Desenvolvi este site como meu portfólio contendo a evolução dos meus estudos até aqui e documentando os projetos realizados, não está sendo fácil, é preciso muita resiliência e foco para alcançar os objetivos, mas as descobertas, aprendizados e conquistas gera muita alegria. Errando, pesquisando, estudando, corrigindo e aprendendo por este caminho, trilhando uma jornada gratificante.</p>
       <h3 class="fs-4 text">Minha sequência de estudos e áreas de interesse são:</h3>
       <div class="interesses mt-5">
-        <button type="button" class="btn btn-primary p-4 bg-info">Front-end</button>
-        <button type="button" class="btn btn-primary p-4 bg-warning">Mobile</button>
-        <button type="button" class="btn btn-primary p-4 bg-danger">Back-end</button>
-        <button type="button" class="btn btn-primary p-4 bg-success bg-gradient">Programaçao</button>
+        <button type="button" class="btn btn-primary p-4 bg-info wow animate__animated animate__slideInLeft" tabindex="0" data-bs-placement="top" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-title="Linguagens de interesse" data-bs-content="HTML | CSS | JS | Frameworks | Git & Github">Front-end</button>
+        <button type="button" class="btn btn-primary p-4 bg-warning wow animate__animated animate__slideInRight" tabindex="0" data-bs-placement="top" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-title="Linguagens de interesse" data-bs-content="Kotlin | Python | Flutter | React Native">Mobile</button>
+        <button type="button" class="btn btn-primary p-4 bg-danger wow animate__animated animate__slideInLeft" tabindex="0" data-bs-placement="top" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-title="Linguagens de interesse" data-bs-content="Node.Js">Back-end</button>
+        <button type="button" class="btn btn-primary p-4 bg-success bg-gradient wow animate__animated animate__slideInRight" tabindex="0" data-bs-placement="top" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-title="Linguagens de interesse" data-bs-content="JavaScript | Python | Ruby  | PHP | Frameworks |">Programaçao</button>
       </div>
     </section>
     <footer class=" text-center bg-secondary" id="contato">  
       <h2 class="py-4 mb-0">Contatos</h2>
       <div class="container  contatos pb-5">
-        <a href="https://wa.me/5531997336350" target="_blank" class="btn btn-success"><i class="bi bi-whatsapp"></i> Whatsapp</a>
-        <a href="mailto:danieldca01@gmail.com" target="_blank" class="btn btn-light"><i class="bi bi-envelope"></i> Email</a>
-        <a href="https://github.com/danielcosta010" target="_blank" class="btn btn-dark"><i class="bi bi-github"></i> Confira meu Github</a>
-        <a href="https://www.linkedin.com/in/daniel-costa010" target="_blank" class="btn btn-primary"><i class="bi bi-linkedin"></i> Acesse meu linkedin</a>
+        <a href="https://wa.me/5531997336350" role="button" target="_blank" class="btn btn-success"><i class="bi bi-whatsapp"></i> Whatsapp</a>
+        <a href="mailto:danieldca01@gmail.com" role="button" target="_blank" class="btn btn-light"><i class="bi bi-envelope"></i> Email</a>
+        <a href="https://github.com/danielcosta010" role="button" target="_blank" class="btn btn-dark"><i class="bi bi-github"></i> Confira meu Github</a>
+        <a href="https://www.linkedin.com/in/daniel-costa010" role="button" target="_blank" class="btn btn-primary"><i class="bi bi-linkedin"></i> Acesse meu linkedin</a>
       </div>
     </footer>
     <a href="#inicio" class="position-sticky bottom-0 start-100">
@@ -271,7 +271,15 @@
       </svg>
     </a>
  
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+   
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+
+    <script>
+      const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+      const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+    </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script>
