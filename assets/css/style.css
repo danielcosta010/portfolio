@@ -26,6 +26,10 @@
 .offcanvas {
   background-color: rgba(0, 0, 0, 0.885);
 }
+.sobre__texto {
+  text-align: justify;
+}
+
 @media screen and (min-width: 540px) {
   .contatos, .interesses{
     grid-template-columns: 1fr 1fr;
