@@ -24,7 +24,7 @@ body {
   display: grid;
   gap: 1.5rem;
 }
-.offcanvas {
+.offcanvas, .dropdown-menu {
   background-color: rgba(0, 0, 0, 0.885);
 }
 .accordion__texto, .cursos__texto, .sobre__texto {
