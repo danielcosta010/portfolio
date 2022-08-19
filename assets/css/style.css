@@ -1,3 +1,7 @@
+body {
+  background-color: #a6d8fcad;
+}
+
 .card {
   transition: .5s ease-in-out;
 }
@@ -15,9 +19,6 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.sobre {
-  background-image: linear-gradient(#a6d8fc95, #d5edff, #d5edff);
-}
 
 .contatos, .interesses {
   display: grid;
@@ -28,6 +29,20 @@
 }
 .accordion__texto, .cursos__texto, .sobre__texto {
   text-align: justify;
+}
+
+.pularNavegacao,
+.pularNavegacao:active,
+.pularNavegacao:focus,
+.pularNavegacao:hover {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  display: block;
+  color: transparent;
+  position: absolute;
 }
 
 @media screen and (min-width: 540px) {
