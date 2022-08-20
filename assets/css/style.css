@@ -5,7 +5,7 @@ body {
 .card {
   transition: .5s ease-in-out;
 }
-.card:hover {
+.card:hover, .card:focus {
   background-color: rgba(0, 0, 0, .5);
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.579);
   color: aliceblue;
@@ -27,9 +27,7 @@ body {
 .offcanvas, .dropdown-menu {
   background-color: rgba(0, 0, 0, 0.885);
 }
-.accordion__texto, .cursos__texto, .sobre__texto {
-  text-align: justify;
-}
+
 
 .pularNavegacao,
 .pularNavegacao:active,
