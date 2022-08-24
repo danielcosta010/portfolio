@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desenha triangulo</title>
+</head>
+<body>
+  <canvas width="800" height="600" style="background-color: blue;"></canvas>
+  <script>
+    var tela = document.querySelector('canvas');
+    var pincel = tela.getContext('2d');
+
+    pincel.fillStyle = 'lightgray';
+    pincel.fillRect(30, 30, 600, 400);
+
+    pincel.fillStyle = 'green';
+    pincel.fillRect(30, 30, 200, 400);
+
+    pincel.fillStyle = 'red';
+    pincel.fillRect(430, 30, 200, 400);
+
+    pincel.fillStyle = 'yellow';
+    pincel.beginPath();
+    pincel.moveTo(330, 230);
+    pincel.lineTo(230, 430);
+    pincel.lineTo(430, 430);
+    pincel.fill();
+
+    pincel.fillStyle = 'blue';
+    pincel.beginPath();
+    pincel.arc(330, 200, 50, 0, 2 * 3.14);
+    pincel.fill();
+  </script>
+</body>
+</html>
