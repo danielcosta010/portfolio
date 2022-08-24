@@ -42,6 +42,19 @@ body {
   color: transparent;
   position: absolute;
 }
+.instrucoes {
+  margin: 10px 0;
+}
+.instrucoes__button {
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(146, 146, 232);
+  
+}
+.instrucoes__link {
+  text-decoration: none;
+}
 
 @media screen and (min-width: 540px) {
   .contatos, .interesses{
