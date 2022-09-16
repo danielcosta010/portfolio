@@ -5,7 +5,7 @@ Site portfólio, documentando a evolução nos meus estudos
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
-| :sparkles: Nome        | **Site documental**
+| :sparkles: Nome        | **Site portfólio**
 | :label: Tecnologias | html, css, bootstrap, animateCSS, WoW (tecnologias utilizadas)
 | :rocket: URL         | https://danielcosta010.github.io/portfolio/#inicio
 
