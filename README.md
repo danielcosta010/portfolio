@@ -8,6 +8,7 @@ Site portfólio, documentando a evolução nos meus estudos
 | :sparkles: Nome        | **Site portfólio**
 | :label: Tecnologias | html, css, bootstrap, animateCSS, WoW (tecnologias utilizadas)
 | :rocket: URL         | https://danielcosta010.github.io/portfolio/#inicio
+| :fire: Desafio     | https://url-do-desafio.com.br
 
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
