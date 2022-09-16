@@ -1,17 +1,17 @@
-# Nome do meu projeto
+# Site Portfólio
 
-Rápida descrição do objetivo de fazer esse projeto
+Um Site contendo a evolução de meus estudos.
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
-| :sparkles: Nome        | **Titulo do meu projeto**
-| :label: Tecnologias | java, html, ruby, c# (tecnologias utilizadas)
-| :rocket: URL         | https://url-deploy.com.br
+| :sparkles: Nome        | **Site Portfólio**
+| :label: Tecnologias | HTML5, CSS3, Bootstrap5 (tecnologias utilizadas)
+| :rocket: URL         | https://danielcosta010.github.io/portfolio/
 | :fire: Desafio     | https://url-do-desafio.com.br
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://github.com/danielcosta010/portfolio/blob/master/assets/img/capareadme.png#vitrinedev)
+![](https://github.com/danielcosta010/portfolio/blob/master/assets/img/capareadme.png?raw=true#vitrinedev)
 
 ## Detalhes do projeto
 
-Textos e imagens que descrevam seu projeto, suas conquistas, seus desafios, próximos passos, etc...
+Site desenvolvido usando Bootstrap5, HTML5, CSS3. Foram utilizados o animateCSS e WoW para dar animação. Nos cards há links para projetos realizados e estou acrescentado constantemente os novos projetos e aprendizados adquiridos.
