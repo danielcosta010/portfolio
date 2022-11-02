@@ -3,7 +3,14 @@ body {
 }
 
 .card {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
   transition: .5s ease-in-out;
+}
+.btn__certificado {
+  justify-self: center;
+  margin-bottom: 1rem;
+  width: 50%;
 }
 .card:hover, .card:focus {
   background-color: rgba(0, 0, 0, .5);
