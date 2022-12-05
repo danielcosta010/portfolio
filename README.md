@@ -10,7 +10,7 @@ Um Site contendo a evolução de meus estudos.
 | :fire: Desafio     | https://url-do-desafio.com.br
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://github.com/danielcosta010/portfolio/blob/master/assets/img/capareadme.png?raw=true#vitrinedev)
+![foto capa do site](https://github.com/danielcosta010/portfolio/blob/master/assets/img/capareadme.png?raw=true#vitrinedev)
 
 ## Detalhes do projeto
 
