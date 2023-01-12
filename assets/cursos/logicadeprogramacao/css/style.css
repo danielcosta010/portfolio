@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  display: 0;
+  overflow: hidden;
+}
+
+
+.arrows {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .p5Canvas {
+    max-width: 100%;
+  }
+  .arrows {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-direction: column;
+    column-gap: 30px;
+    position: absolute;
+    margin: 410px calc(50% - 85px) 0 ;
+    height: 73px;
+    width: 150px;
+  }
+  .arrow__up {
+    justify-self: center;
+    grid-column: 1 / span 3;
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    background: transparent;
+    border: none;
+  }
+  .arrow__down {
+   justify-self: center;
+   grid-row: 4;
+   grid-column: span 3;
+   width: 50px;
+   height: 50px;
+   font-size: 2rem;
+   background: transparent;
+   border: none;
+  }
+  .arrow__right {
+    justify-self: end;
+    grid-row: 2 / 3;
+    grid-column: 3;
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    background: transparent;
+    border: none;
+  }
+  .arrow__left {
+    justify-self: start;
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    background: transparent;
+    border: none;
+  }
+
+  #defaultCanvas0 {
+    width: 100%;  
+  }
+}
