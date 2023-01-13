@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.arrows {
+  display: none;
+}
+
+
+@media (max-width: 600px) {
+  .p5Canvas {
+    max-width: 100%;
+  }
+  
+  .arrows {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    margin-top: 410px;
+    margin-left: 10%;
+    height: 73px;
+    width: 300px;
+  }
+  .arrows__left, .arrows__right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .arrow {
+    font-size: 2rem;
+    background: transparent;
+    border: none;
+  }
+}
