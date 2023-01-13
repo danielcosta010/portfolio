@@ -13,7 +13,7 @@ Um Site contendo a evolução de meus estudos.
 
 <img src="https://github.com/danielcosta010/portfolio/blob/master/assets/img/bannerSite.png#vitrinedev" alt="Banner do Site">
 
-<a href="https://danielcosta010.github.io/portfolio/" target="_blank"><img src="https://github.com/danielcosta010/portfolio/blob/master/assets/img/capareadme.png?raw=true#vitrinedev" alt="Foto capa do site" width="1000"></a>
+<a href="https://danielcosta010.github.io/portfolio/" target="_blank"><img src="https://github.com/danielcosta010/portfolio/blob/master/assets/img/FotoCapaSite.png#vitrinedev" alt="Foto capa do site" width="1000"></a>
 
 ## Detalhes do projeto
 
