@@ -6,7 +6,7 @@ Um Site contendo a evolução de meus estudos.
 | -------------  | --- |
 | :sparkles: Nome        | **Site Portfólio**
 | :label: Tecnologias | HTML5, CSS3, Bootstrap5 (tecnologias utilizadas)
-| :rocket: URL         | https://danielcosta010.github.io/portfolio/
+| :rocket: URL         | <a href="https://danielcosta010.github.io/portfolio/" target="_blank">Acesse o Portfólio aqui!</a>
 | :fire: Desafio     | https://url-do-desafio.com.br
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
