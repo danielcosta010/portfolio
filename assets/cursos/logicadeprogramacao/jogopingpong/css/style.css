@@ -18,14 +18,15 @@ body {
     justify-content: space-between;
     width: 100%;
     position: absolute;
-    margin-top: 410px;
+    margin-top: 400px;
     height: 300px;
     width: 100%;
   }
   .arrows__left, .arrows__right {
     display: flex;
     flex-direction: column;
-    gap: 150px;
+    gap: 130px;
+    margin: 15px;
   }
   .arrow {
     font-size: 3.5rem;
